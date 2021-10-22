@@ -13,7 +13,7 @@ const _getOne = async (pokemonName: string): Promise<PokemonData> => {
 
         return data;
     } catch (err) {
-        throw serviceErrorHandler(err);
+        throw serviceErrorHandler();
     }
 };
 
