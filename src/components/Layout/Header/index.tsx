@@ -46,11 +46,11 @@ export const Header = ({ onOpen }: HeaderProps): JSX.Element => {
                     icon={<HiMenu size="24" />}
                     size="sm"
                     variant="outline"
-                    borderColor="tlgp.primary.700"
+                    borderColor="pokeapi.primary.700"
                     aria-label="Menu hambúrguer"
                     transtion="all 0.4 ease"
                     _hover={{
-                        bgColor: 'tlgp.primary.700',
+                        bgColor: 'pokeapi.primary.700',
                         color: 'white',
                     }}
                     onClick={() => onOpen()}
@@ -70,11 +70,11 @@ export const Header = ({ onOpen }: HeaderProps): JSX.Element => {
                             icon={<FaChevronDown />}
                             size="xs"
                             variant="outline"
-                            borderColor="tlgp.primary.700"
+                            borderColor="pokeapi.primary.700"
                             aria-label="Menu usuário"
                             transtion="all 0.4 ease"
                             _hover={{
-                                bgColor: 'tlgp.primary.700',
+                                bgColor: 'pokeapi.primary.700',
                                 color: 'white',
                             }}
                         />

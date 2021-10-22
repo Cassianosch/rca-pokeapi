@@ -31,7 +31,7 @@ const theme = extendTheme({
         body: 'Poppins, sans-serif',
     },
     colors: {
-        tlgp: {
+        pokeapi: {
             primary: {
                 300: '#FFEED5',
                 500: '#FFBD59',
@@ -53,7 +53,7 @@ const theme = extendTheme({
         Button: {
             variants: {
                 'form-submit': {
-                    bgColor: 'tlgp.primary.500',
+                    bgColor: 'pokeapi.primary.500',
                     borderRadius: '50',
                     padding: '1.4rem 4rem',
                     color: 'white',
@@ -61,9 +61,9 @@ const theme = extendTheme({
                     transition: 'all .5s ease',
                     fontSize: '.85rem',
                     _hover: {
-                        bgColor: 'tlgp.primary.700',
+                        bgColor: 'pokeapi.primary.700',
                         _loading: {
-                            bgColor: 'tlgp.primary.500',
+                            bgColor: 'pokeapi.primary.500',
                         },
                     },
                 },
@@ -93,7 +93,7 @@ const theme = extendTheme({
                 fontWeight: 600,
                 transition: 'all 0.3s ease',
                 _hover: {
-                    color: 'tlgp.primary.700',
+                    color: 'pokeapi.primary.700',
                 },
             },
         },
