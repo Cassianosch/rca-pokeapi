@@ -64,7 +64,7 @@ export const PokemonPage = (): JSX.Element => {
     );
 
     return (
-        <Container title="Planos" type="app">
+        <Container title="PokeAPI" type="app">
             <Flex direction="column" gridGap="8">
                 <Heading fontSize="2xl">Pokemon Finder</Heading>
                 <Grid
