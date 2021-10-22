@@ -4,9 +4,9 @@ import { PokemonPage } from '../pages/app/pokemon';
 
 const AppRoutes = (): JSX.Element => (
     <Switch>
-        <Route exact path="/pokemon" component={PokemonPage} />
+        <Route exact path="/" component={PokemonPage} />
         <Route>
-            <Redirect to="/pokemon" />
+            <Redirect to="/" />
         </Route>
     </Switch>
 );
