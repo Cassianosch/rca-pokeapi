@@ -18,7 +18,7 @@ export const Container = (props: ContainerProps): JSX.Element => {
     return (
         <>
             <Helmet>
-                <title>{title} | TLGP Admin</title>
+                <title>{title} | PokeAPI</title>
             </Helmet>
             {type === 'auth' ? (
                 <Flex
@@ -44,7 +44,7 @@ export const Container = (props: ContainerProps): JSX.Element => {
                     w="full"
                     minH="100vh"
                     direction="column"
-                    bgColor="tlgp.variants.lightGrey">
+                    bgColor="pokeapi.variants.lightGrey">
                     <Header onOpen={onOpen} />
                     <Flex
                         direction="row"

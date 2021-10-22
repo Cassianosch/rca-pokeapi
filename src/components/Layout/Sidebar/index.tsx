@@ -42,17 +42,17 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps): JSX.Element => {
                                 py="4"
                                 color={
                                     isActive
-                                        ? 'tlgp.variants.darkGrey'
-                                        : 'tlgp.variants.grey'
+                                        ? 'pokeapi.variants.darkGrey'
+                                        : 'pokeapi.variants.grey'
                                 }
                                 borderLeft={isActive && '4px solid'}
-                                borderLeftColor="tlgp.primary.500"
+                                borderLeftColor="pokeapi.primary.500"
                                 boxShadow={
                                     isActive &&
                                     'inset 19px 0 30px -22px #FFBD59'
                                 }
                                 _hover={{
-                                    color: 'tlgp.variants.darkGrey',
+                                    color: 'pokeapi.variants.darkGrey',
                                 }}>
                                 <Icon
                                     as={menu.icon}
@@ -60,8 +60,8 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps): JSX.Element => {
                                     h="6"
                                     fill={
                                         isActive
-                                            ? 'tlgp.primary.500'
-                                            : 'tlgp.variants.iconGrey'
+                                            ? 'pokeapi.primary.500'
+                                            : 'pokeapi.variants.iconGrey'
                                     }
                                 />
                                 <Text
